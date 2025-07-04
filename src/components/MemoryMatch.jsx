@@ -3,6 +3,12 @@ import CardsGrid from "./CardsGrid"
 import Header from "./Header"
 import { useState, useEffect } from 'react'
 import { imageDataContext, openCardsContext, selectedImagesContext } from './context'
+import img1 from '../assets/images/img-1.jpeg';
+import img2 from '../assets/images/img-2.jpeg';
+import img3 from '../assets/images/img-3.jpeg';
+import img4 from '../assets/images/img-4.jpeg';
+import img5 from '../assets/images/img-5.jpeg';
+import img6 from '../assets/images/img-6.jpeg';
 
 
 function MemoryMatch() {
@@ -17,16 +23,7 @@ function MemoryMatch() {
   const totalCardInGrid = 12;
   const NoOFCards = totalCardInGrid / 2;
   const images = [
-    'https://images.pexels.com/photos/32552929/pexels-photo-32552929.jpeg',
-    'https://images.pexels.com/photos/4046993/pexels-photo-4046993.jpeg',
-
-    'https://images.pexels.com/photos/31868454/pexels-photo-31868454.jpeg',
-
-    'https://images.pexels.com/photos/16630714/pexels-photo-16630714.jpeg',
-
-    'https://images.pexels.com/photos/32117661/pexels-photo-32117661.jpeg',
-    'https://images.pexels.com/photos/14909837/pexels-photo-14909837.jpeg'
-
+    img1, img2, img3, img4, img5, img6
 
 
   ]
